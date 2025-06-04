@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1748947865950,
+    "title": "123",
+    "content": "1234",
+    "category": "Розваги",
+    "authorId": 1748944036307,
+    "authorName": "user",
+    "date": "2025-06-03",
+    "likes": [],
+    "dislikes": [
+      1748944036307
+    ],
+    "comments": [],
+    "createdAt": "2025-06-03T10:51:05.950Z"
+  }
+]

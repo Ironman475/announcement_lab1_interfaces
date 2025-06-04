@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1748944036307,
+    "name": "user",
+    "email": "user@gmail.com",
+    "password": "$2a$10$7DS.M1mHq369b9MrG49DpOg8lTpTrCJ49yGoyz9xaHSYB6ocPfoNK",
+    "gender": "male",
+    "birthDate": "2025-03-12",
+    "isAdmin": true,
+    "createdAt": "2025-06-03T09:47:16.307Z"
+  }
+]
