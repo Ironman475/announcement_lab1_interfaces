@@ -7,6 +7,77 @@
     "gender": "male",
     "birthDate": "2025-03-12",
     "isAdmin": true,
-    "createdAt": "2025-06-03T09:47:16.307Z"
+    "createdAt": "2025-06-03T09:47:16.307Z",
+    "updatedAt": "2025-06-04T09:16:32.216Z"
+  },
+  {
+    "id": 1749027086700,
+    "name": "Test User",
+    "email": "test1749027085031@example.com",
+    "password": "$2a$10$3zLnisIa/RZQsva6RzbDMu.5YduS/1GQhb5.7j00R05oOnsHhYMte",
+    "gender": "male",
+    "birthDate": "1990-01-01",
+    "isAdmin": false,
+    "createdAt": "2025-06-04T08:51:26.700Z"
+  },
+  {
+    "id": 1749027088794,
+    "name": "Test User",
+    "email": "admin@example.com",
+    "password": "$2a$10$/.wtZf7gd.W5iIJfwHkklu96JVNR8UQQe6NlnIu26t0NQJ.fDfoMa",
+    "gender": "male",
+    "birthDate": "1990-01-01",
+    "isAdmin": true,
+    "createdAt": "2025-06-04T08:51:28.794Z"
+  },
+  {
+    "id": 1749027470167,
+    "name": "Test User",
+    "email": "test1749027468493@example.com",
+    "password": "$2a$10$u/CxMsps32FLYdGzilS6e.EJxodKPX4kOs48rX.HKmlrGEf3atfAG",
+    "gender": "male",
+    "birthDate": "1990-01-01",
+    "isAdmin": false,
+    "createdAt": "2025-06-04T08:57:50.167Z"
+  },
+  {
+    "id": 1749027548553,
+    "name": "Test User",
+    "email": "test1749027546844@example.com",
+    "password": "$2a$10$tZfENMtpiUB5C5a7dR4RM.erHjFNk3RBWBPEkcleoLGt7j0NjW0Ge",
+    "gender": "male",
+    "birthDate": "1990-01-01",
+    "isAdmin": false,
+    "createdAt": "2025-06-04T08:59:08.553Z"
+  },
+  {
+    "id": 1749027607639,
+    "name": "Test User",
+    "email": "test1749027606004@example.com",
+    "password": "$2a$10$J.XS9988YiZGvq2hj3HHzeej4OLDZFmW8ssOY70gJ3N3EYVDTQASu",
+    "gender": "male",
+    "birthDate": "1990-01-01",
+    "isAdmin": false,
+    "createdAt": "2025-06-04T09:00:07.639Z"
+  },
+  {
+    "id": 1749028638490,
+    "name": "Test User",
+    "email": "test1749028636852@example.com",
+    "password": "$2a$10$8YJQj5gE8iNnEZNWDadRjeUOFzI6fkMklaRozu8mBzsqXWSIy.vFu",
+    "gender": "male",
+    "birthDate": "1990-01-01",
+    "isAdmin": false,
+    "createdAt": "2025-06-04T09:17:18.490Z"
+  },
+  {
+    "id": 1749028696818,
+    "name": "Test User",
+    "email": "test1749028695215@example.com",
+    "password": "$2a$10$xJNdeUKTOByKou/Cbqkbh.H0MlCCPWqxbfH5REa6MrQdclydFYfqa",
+    "gender": "male",
+    "birthDate": "1990-01-01",
+    "isAdmin": false,
+    "createdAt": "2025-06-04T09:18:16.818Z"
   }
 ]

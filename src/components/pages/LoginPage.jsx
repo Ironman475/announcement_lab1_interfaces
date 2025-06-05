@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { LogIn } from 'lucide-react';
 import useAuth from '../../hooks/useAuth';
 
 const LoginPage = () => {
@@ -32,8 +31,11 @@ const LoginPage = () => {
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                Email
+              </label>
               <input
+                id="email"
                 type="email"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
@@ -44,8 +46,11 @@ const LoginPage = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Пароль</label>
+              <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-2">
+                Пароль
+              </label>
               <input
+                id="password"
                 type="password"
                 value={password}
                 onChange={e => setPassword(e.target.value)}

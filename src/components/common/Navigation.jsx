@@ -70,7 +70,7 @@ const Navigation = () => {
 
       {/* Мобільне меню */}
       {isOpen && (
-        <div className="md:hidden mt-3 space-y-2 px-4">
+        <div data-testid="mobile-menu" className="md:hidden mt-3 space-y-2 px-4">
           {!user ? (
             <>
               <Link

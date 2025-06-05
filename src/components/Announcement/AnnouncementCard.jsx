@@ -3,9 +3,14 @@ import { Heart, MessageCircle, Calendar, User } from 'lucide-react';
 
 const AnnouncementCard = ({ announcement, onReact }) => {
   return (
-    <div className="bg-white rounded-xl shadow-md p-6">
+    <div
+      className="bg-white rounded-xl shadow-md p-6"
+      data-testid="announcement-card"
+    >
       <div className="flex justify-between items-start mb-2">
-        <h3 className="text-xl font-semibold text-gray-800">{announcement.title}</h3>
+        <h3 className="text-xl font-semibold text-gray-800">
+          {announcement.title}
+        </h3>
         <span className="px-3 py-1 text-sm bg-blue-100 text-blue-800 rounded-full">
           {announcement.category}
         </span>
@@ -29,22 +34,30 @@ const AnnouncementCard = ({ announcement, onReact }) => {
           <button
             onClick={() => onReact(announcement.id, 'like')}
             className="flex items-center space-x-2 text-green-600 hover:text-green-700"
+            data-testid="like-button"
           >
             <Heart className="w-5 h-5" />
-            <span>{announcement.likes.length}</span>
+            <span data-testid="like-count">{announcement.likes.length}</span>
           </button>
+
           <button
             onClick={() => onReact(announcement.id, 'dislike')}
             className="flex items-center space-x-2 text-red-600 hover:text-red-700"
+            data-testid="dislike-button"
           >
             <Heart className="w-5 h-5 transform rotate-180" />
-            <span>{announcement.dislikes.length}</span>
+            <span data-testid="dislike-count">{announcement.dislikes.length}</span>
           </button>
-          <div className="flex items-center space-x-2 text-gray-500">
+
+          <div
+            className="flex items-center space-x-2 text-gray-500"
+            data-testid="comment-info"
+          >
             <MessageCircle className="w-5 h-5" />
-            <span>{announcement.comments.length}</span>
+            <span data-testid="comment-count">{announcement.comments.length}</span>
           </div>
         </div>
+
         <span className="text-sm text-gray-400">#{announcement.id}</span>
       </div>
     </div>

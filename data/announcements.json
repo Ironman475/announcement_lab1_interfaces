@@ -7,11 +7,41 @@
     "authorId": 1748944036307,
     "authorName": "user",
     "date": "2025-06-03",
-    "likes": [],
-    "dislikes": [
+    "likes": [
       1748944036307
     ],
+    "dislikes": [],
     "comments": [],
     "createdAt": "2025-06-03T10:51:05.950Z"
+  },
+  {
+    "id": 1749026983799,
+    "title": "Test Announcement",
+    "content": "This is test announcement content",
+    "category": "Розваги",
+    "authorId": 1748944036307,
+    "authorName": "user",
+    "date": "2025-06-04",
+    "likes": [
+      1748944036307
+    ],
+    "dislikes": [],
+    "comments": [],
+    "createdAt": "2025-06-04T08:49:43.799Z"
+  },
+  {
+    "id": 1749027036391,
+    "title": "Test Announcement",
+    "content": "This is test announcement content",
+    "category": "Розваги",
+    "authorId": 1748944036307,
+    "authorName": "user",
+    "date": "2025-06-04",
+    "likes": [
+      1748944036307
+    ],
+    "dislikes": [],
+    "comments": [],
+    "createdAt": "2025-06-04T08:50:36.391Z"
   }
 ]
