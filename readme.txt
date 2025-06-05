@@ -1,8 +1,9 @@
+2 частина (ЛР2)
 ПІБ: Бужацький Володимир Михайлович
 Група: КВ-42мп
 Розробка клієнтської частини Web-додатка
 Текст завдання
-Мета: навчитись користуватись засобами фреймворка Javascript/ReactJS, платформи NodeJS, а також бібліотеки Twitter Bootstrap, Material UI або Tailwind щодо побудови Web-інтерфейсу користувача.
-Загальне завдання: розробити клієнтську частину Web-додатку.
-Інструменти розробки: VS Code, Javascript/ReactJS, Twitter Bootstrap, Material UI, Tailwind, NodeJS, diagrams.net
-Посилання на документ звіту на Google Drive: https://docs.google.com/document/d/19iqLBFw9cZR3FGPxIFtcFWC4qvS1pR-R5yfJRuRzh9Q/edit?usp=sharing
+Мета: навчитись користуватись засобами тестування Web-інтерфейсу користувача за допомогою фреймворка модульного тестування Javascript/Jest/React Testing Library, а також End-To-End (системного) тестування за допомогою фреймворку cypress.
+Загальне завдання: розробити засоби сценарії (код) для тестування клієнтської частини (інтерфейсу користувача) Web-додатку.
+Інструменти розробки: VS Code, Javascript/ReactJS/Jest, cypress.io
+Посилання на документ звіту на Google Drive: https://docs.google.com/document/d/15T9O_B9k5aSiAhfK6hZvAVQTl3jJh8wVMB_qH-RNAys/edit?usp=sharing
